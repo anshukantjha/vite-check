@@ -1,0 +1,6 @@
+services:
+  frontend:
+    image: kantanshu007/vite:latest
+    container_name: vite
+    ports:
+      - "80:80"
